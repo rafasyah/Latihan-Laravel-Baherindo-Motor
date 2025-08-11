@@ -11,3 +11,4 @@ Route::get('/', [WelcomeController::class, 'index'])->name('home');
 // Resources for form submission
 Route::resource('motor', MotorController::class);
 Route::resource('mobil', MobilController::class);
+Route::resource('home', WelcomeController::class);
