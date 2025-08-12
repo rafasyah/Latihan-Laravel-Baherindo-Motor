@@ -96,6 +96,6 @@ return redirect('mobil');
         $mobil = MobilBaherindo::find($id);
         $mobil->delete();
 
-        return redirect('mobil')->with('success', 'Data berhasil dihapus!');
+        return redirect('mobil');
     }
 }

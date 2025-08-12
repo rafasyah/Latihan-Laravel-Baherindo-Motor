@@ -28,7 +28,7 @@
             <div class="mt-4 flex items-center justify-between">
                 <span class="text-blue-600 font-bold text-lg">Rp {{ number_format($mo->harga_mobil, 0, ',', '.') }}</span>
                   <span class="text-blue-600 font-bold text-lg">Rp {{ number_format($mo->km_mobil, 0, ',', '.') }}</span>
-          <a href="{{ route('mobil.show', $mo->id) }}" class="text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition">Beli</a>
+          <a href="{{ route('mobil.show', $mo->id) }}" class="text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition">Edit</a>
             </div>
         </div>
     </div>
